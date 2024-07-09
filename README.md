@@ -33,3 +33,6 @@ index <- WID_CIN(beta)
 
 The output is a named vector that can be matched, for instance, to your pheno file.
 
+## Use notes
+
+**Please note: this code is available for research use only. Commercial use of the code or any data related to it is prohibited.**
