@@ -1,0 +1,17 @@
+Package: WID.CIN
+Type: Package
+Title: WID-CIN index computation
+Version: 0.1.0
+Author: Chiara Herzog
+Maintainer: Chiara Herzog <yourself@somewhere.net>
+Description: This package computes the WID-CIN on preprocessed Illumina Methylation Array Data.
+    Please ensure best practices with DNA methylation preprocessing before applying this code.
+    The index was trained on EPIC array data, thus application to 450K or EPIC version 2 data may cause issues.
+    For EPIC version 2 data, ensure that probe names are consistent with EPIC array naming.
+    Future versions of the package may include EPIC version 2 compatible code.
+License: Research Use Only - No Commercial Use
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+RoxygenNote: 7.3.1
